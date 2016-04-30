@@ -1,0 +1,61 @@
+{
+    "PROD_ENV": {
+        "NodeFrame": {
+            "host": "localhost",
+            "ports": [
+                3000,
+                3001
+            ],
+            "Cookie": {
+                "secure": false,
+                "maxAge": 86400000
+            }
+        },
+        "Memcached": {
+            "host": "localhost",
+            "port": 11211
+        },
+        "Mysql": {
+            "username": "root",
+            "password": null,
+            "database": "nodeframe",
+            "host": "127.0.0.1",
+            "pool": {
+                "max": 10,
+                "min": 0,
+                "idle": 10000
+            }
+        },
+        "Models": {
+        }
+    },
+    "comment": "Don't need to copy-past all config from prod, just write the diff only.",
+    "DEV_ENV": {
+        "NodeFrame": {
+            "host": "localhost",
+            "ports": [3000],
+            "Cookie": {
+                "secure": false,
+                "maxAge": 86400000
+            }
+        },
+        "Mysql": {
+            "username": "root",
+            "password": null,
+            "database": "nodeframe_dev",
+            "host": "127.0.0.1"
+        }
+    },
+    "LOCAL_ENV": {
+        "NodeFrame": {
+            "host": "localhost",
+            "ports": [3001]
+        },
+        "Mysql": {
+            "username": "root",
+            "password": null,
+            "database": "nodeframe_local",
+            "host": "127.0.0.1"
+        }
+    }
+}

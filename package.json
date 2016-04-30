@@ -1,0 +1,43 @@
+{
+    "name": "Node-Frame",
+    "version": "1.0.0",
+    "description": "Node-Frame — Node framework to build rest application",
+    "main": "server.js",
+    "dependencies": {
+        "async": "^1.5.2",
+        "aws-sdk": "^2.3.3",
+        "body-parser": "^1.14.2",
+        "chalk": "^1.1.1",
+        "connect-memcached": "^0.1.0",
+        "cookie-parser": "^1.4.1",
+        "csvtojson": "^0.5.2",
+        "express": "^4.13.3",
+        "express-session": "^1.13.0",
+        "fs": "0.0.2",
+        "json2csv": "^3.2.0",
+        "kew": "^0.7.0",
+        "mysql": "^2.10.1",
+        "request": "^2.69.0",
+        "sequelize": "^3.17.1",
+        "skipper": "^0.5.9",
+        "skipper-s3": "^0.5.6",
+        "temp": "^0.8.3",
+        "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+        "continuation-local-storage": "^3.1.4"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/debarko/node-frame.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/debarko/node-frame/issues"
+    },
+    "homepage": "https://github.com/debarko/node-frame/wiki"
+}
